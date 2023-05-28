@@ -1,0 +1,22 @@
+print("\n3")
+set_a = set("ABCDE")
+print(set_a)
+set_a.add("G")
+print(set_a)
+set_a.add("A")
+print(set_a)
+x = "A"
+set_a.remove(x) if x in set_a else print("x is not found")
+print(set_a)
+x = "K"
+set_a.remove(x) if x in set_a else print("x is not found")
+print(set_a)
+x = "B"
+set_a.discard(x)
+print(set_a)
+set_a.pop()
+print(set_a)
+set_a.pop()
+print(set_a)
+set_a.clear()
+print(set_a)
